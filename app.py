@@ -33,7 +33,7 @@ def main():
             # print('Environment Rating: ' + str(round(result[0], 2)) + '%')
             return str(round(result[0], 2))
 
-        temp2 = st.number_input('Temperature (°C) ', 15, 30)
+        temp2 = st.number_input('Temperature (between 15°C  and 30°C due to arduino sensor) ', 15, 30)
         soil_mois2 = st.number_input('Soil Moisture (%)', 0, 100)
         hum2 = st.number_input('Humidity (%) ', 0, 100)
 
