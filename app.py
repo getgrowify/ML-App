@@ -21,7 +21,7 @@ def main():
 
         st.markdown(f'<h2 style="font-weight: bold; padding-bottom: 0px;">Environment Rating</h2>', unsafe_allow_html=True)
         st.write("""
-        (get the optimal crop based on measurments)
+        (get a metric to score Arduino sensor readings)
         [Link to ML notebook](https://colab.research.google.com/drive/1H39jp1yB-RBOhcuYaA8FdUhtt-a2xOFG#scrollTo=inHzThqlauJ4) & [Crop Classification](https://colab.research.google.com/drive/1b1s7uUVeev2qgadHmpHian4ZEage4Uti#scrollTo=A9aBeA-wcok-)
         """)
 
