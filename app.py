@@ -22,7 +22,7 @@ def main():
         st.markdown(f'<h2 style="font-weight: bold; padding-bottom: 0px;">Environment Rating</h2>', unsafe_allow_html=True)
         st.write("""
         (get a metric to score Arduino sensor readings)
-        [Link to ML notebook](https://colab.research.google.com/drive/1H39jp1yB-RBOhcuYaA8FdUhtt-a2xOFG#scrollTo=inHzThqlauJ4) & [Crop Classification](https://colab.research.google.com/drive/1b1s7uUVeev2qgadHmpHian4ZEage4Uti#scrollTo=A9aBeA-wcok-)
+        [Link to ML notebook](https://colab.research.google.com/drive/1TmzETtl_OV_441ZSUcT3a_eZN9J0bp7f#scrollTo=VCja_4JgLAKm) & [Crop Classification](https://colab.research.google.com/drive/1fgU7fqVd89qRO3dugcGpr3FAz0t4mm65#scrollTo=iOehtrpEL78R)
         """)
 
 
@@ -58,7 +58,7 @@ def main():
         st.markdown(f'<h2 style="font-weight: bold; padding-bottom: 0px;">Crop Recommendation</h2>', unsafe_allow_html=True)
         st.write("""
         (get the optimal crop based on measurments)
-        [Link to ML notebook](https://colab.research.google.com/drive/1KRE3yEfb3US_50EM-YE1c4n8Ov9-m8xl#scrollTo=xhAr_Fv4bZqn) & [Link to analysis](https://colab.research.google.com/drive/1veCUGr0bnJeSwiExd3ilQN-aFP5bmmHx#scrollTo=OTNVqh6Yij9k)
+        [Link to ML notebook](https://colab.research.google.com/drive/1afC2Wk7UQ2w5jnDIdP-CZtfVjnDEcmq1#scrollTo=gofdpWB7MAKQ) & [Link to analysis](https://colab.research.google.com/drive/1iFHqlpzNs8QTCO2VauUQgQs630LxSNJ8#scrollTo=diralSVbL-NY)
         """)
 
         rf_crop = load_model('models/rf_crop_recommendation.joblib')
