@@ -40,7 +40,7 @@ def main():
         if st.button('Run Environment Rating Model'):
             rating = env_rating(temp2, soil_mois2, hum2)
             print('Rating:', rating)
-            st.write("AI's Environment Rating:  " + str(rating) + 'str')
+            st.write("AI's Environment Rating:  " + str(rating) + '%')
             if (float(rating) < 70):
                 st.markdown(f'<p style="font-weight: bold; color:red;">Not Viable</p>', unsafe_allow_html=True)
             elif (float(rating) >= 85):
